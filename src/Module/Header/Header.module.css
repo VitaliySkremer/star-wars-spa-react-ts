@@ -1,0 +1,16 @@
+.header {
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.header_logo {
+  height: 100%;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=Header.module.css.map */

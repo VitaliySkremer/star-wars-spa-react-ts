@@ -1,0 +1,32 @@
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background-image: url("public/img/background/backgroundBody.gif");
+  color: white;
+  cursor: url("public/img/technikal/light-sword.png"), pointer;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+main {
+  flex: 1 1 auto;
+}
+
+.container {
+  max-width: 1400px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 70px 0;
+}
+
+/*# sourceMappingURL=index.css.map */

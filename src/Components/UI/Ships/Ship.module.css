@@ -1,0 +1,163 @@
+.ship {
+  position: fixed;
+  width: 25px;
+  height: 25px;
+}
+.ship:nth-child(1) {
+  transform: translate(32.1473vw, -10px);
+  animation: fall-1 15s -9s linear infinite;
+}
+@keyframes fall-1 {
+  35.737% {
+    transform: translate(31.0401vw, 35.737vh);
+  }
+  to {
+    transform: translate(31.5937vw, 100vh);
+  }
+}
+.ship:nth-child(2) {
+  transform: translate(90.5779vw, -10px);
+  animation: fall-2 13s -9s linear infinite;
+}
+@keyframes fall-2 {
+  61.518% {
+    transform: translate(95.5068vw, 61.518vh);
+  }
+  to {
+    transform: translate(93.04235vw, 100vh);
+  }
+}
+.ship:nth-child(3) {
+  transform: translate(47.1453vw, -10px);
+  animation: fall-3 11s -3s linear infinite;
+}
+@keyframes fall-3 {
+  58.871% {
+    transform: translate(47.4932vw, 58.871vh);
+  }
+  to {
+    transform: translate(47.31925vw, 100vh);
+  }
+}
+.ship:nth-child(4) {
+  transform: translate(42.5352vw, -10px);
+  animation: fall-4 12s -25s linear infinite;
+}
+@keyframes fall-4 {
+  55.021% {
+    transform: translate(38.07vw, 55.021vh);
+  }
+  to {
+    transform: translate(40.3026vw, 100vh);
+  }
+}
+.ship:nth-child(5) {
+  transform: translate(0.769vw, -10px);
+  animation: fall-5 14s -28s linear infinite;
+}
+@keyframes fall-5 {
+  53.304% {
+    transform: translate(3.0923vw, 53.304vh);
+  }
+  to {
+    transform: translate(1.93065vw, 100vh);
+  }
+}
+.ship:nth-child(6) {
+  transform: translate(97.8675vw, -10px);
+  animation: fall-6 10s -5s linear infinite;
+}
+@keyframes fall-6 {
+  45.159% {
+    transform: translate(100.0851vw, 45.159vh);
+  }
+  to {
+    transform: translate(98.9763vw, 100vh);
+  }
+}
+.ship:nth-child(7) {
+  transform: translate(88.5188vw, -10px);
+  animation: fall-7 15s -24s linear infinite;
+}
+@keyframes fall-7 {
+  61.117% {
+    transform: translate(83.1028vw, 61.117vh);
+  }
+  to {
+    transform: translate(85.8108vw, 100vh);
+  }
+}
+.ship:nth-child(8) {
+  transform: translate(66.0833vw, -10px);
+  animation: fall-8 15s -28s linear infinite;
+}
+@keyframes fall-8 {
+  58.864% {
+    transform: translate(69.5976vw, 58.864vh);
+  }
+  to {
+    transform: translate(67.84045vw, 100vh);
+  }
+}
+.ship:nth-child(9) {
+  transform: translate(83.2518vw, -10px);
+  animation: fall-9 12s -21s linear infinite;
+}
+@keyframes fall-9 {
+  73.776% {
+    transform: translate(76.6773vw, 73.776vh);
+  }
+  to {
+    transform: translate(79.96455vw, 100vh);
+  }
+}
+.ship:nth-child(10) {
+  transform: translate(57.7366vw, -10px);
+  animation: fall-10 13s -30s linear infinite;
+}
+@keyframes fall-10 {
+  37.952% {
+    transform: translate(56.0775vw, 37.952vh);
+  }
+  to {
+    transform: translate(56.90705vw, 100vh);
+  }
+}
+.ship:nth-child(11) {
+  transform: translate(64.7224vw, -10px);
+  animation: fall-11 14s -5s linear infinite;
+}
+@keyframes fall-11 {
+  48.079% {
+    transform: translate(72.8863vw, 48.079vh);
+  }
+  to {
+    transform: translate(68.80435vw, 100vh);
+  }
+}
+.ship:nth-child(12) {
+  transform: translate(87.7654vw, -10px);
+  animation: fall-12 14s -26s linear infinite;
+}
+@keyframes fall-12 {
+  68.632% {
+    transform: translate(92.0684vw, 68.632vh);
+  }
+  to {
+    transform: translate(89.9169vw, 100vh);
+  }
+}
+.ship:nth-child(13) {
+  transform: translate(40.6524vw, -10px);
+  animation: fall-13 14s -22s linear infinite;
+}
+@keyframes fall-13 {
+  70.675% {
+    transform: translate(44.6596vw, 70.675vh);
+  }
+  to {
+    transform: translate(42.656vw, 100vh);
+  }
+}
+
+/*# sourceMappingURL=Ship.module.css.map */

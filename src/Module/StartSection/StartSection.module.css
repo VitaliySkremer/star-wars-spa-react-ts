@@ -1,0 +1,46 @@
+.wrapper__img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+
+.img {
+  width: 33%;
+}
+
+.dart__vaider {
+  animation: right 1s 1 ease;
+}
+
+.star__death {
+  animation: left 1s 1 ease;
+}
+
+.star__text {
+  align-self: flex-end;
+  height: 100%;
+}
+
+@keyframes left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: none;
+    opacity: 1;
+  }
+}
+@keyframes right {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=StartSection.module.css.map */
